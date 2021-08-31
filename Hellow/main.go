@@ -79,7 +79,6 @@ func main() {
 	a = 0
 	defer calc("2", a, calc("20", a, b))
 	b = 1
-
 	//fmt.Println(f3())
 
 	// fmt.Println(f1(1, 2, false))
